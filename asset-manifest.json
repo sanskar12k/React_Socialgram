@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React_Socialgram/static/css/main.a858a42d.chunk.css",
+    "main.js": "/React_Socialgram/static/js/main.037834fd.chunk.js",
+    "main.js.map": "/React_Socialgram/static/js/main.037834fd.chunk.js.map",
+    "runtime-main.js": "/React_Socialgram/static/js/runtime-main.836e1420.js",
+    "runtime-main.js.map": "/React_Socialgram/static/js/runtime-main.836e1420.js.map",
+    "static/js/2.6702c623.chunk.js": "/React_Socialgram/static/js/2.6702c623.chunk.js",
+    "static/js/2.6702c623.chunk.js.map": "/React_Socialgram/static/js/2.6702c623.chunk.js.map",
+    "static/js/3.a916c501.chunk.js": "/React_Socialgram/static/js/3.a916c501.chunk.js",
+    "static/js/3.a916c501.chunk.js.map": "/React_Socialgram/static/js/3.a916c501.chunk.js.map",
+    "index.html": "/React_Socialgram/index.html",
+    "static/css/main.a858a42d.chunk.css.map": "/React_Socialgram/static/css/main.a858a42d.chunk.css.map",
+    "static/js/2.6702c623.chunk.js.LICENSE.txt": "/React_Socialgram/static/js/2.6702c623.chunk.js.LICENSE.txt",
+    "static/media/logo192.2a77b947.png": "/React_Socialgram/static/media/logo192.2a77b947.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.836e1420.js",
+    "static/js/2.6702c623.chunk.js",
+    "static/css/main.a858a42d.chunk.css",
+    "static/js/main.037834fd.chunk.js"
+  ]
+}
