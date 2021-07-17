@@ -1,0 +1,5 @@
+.navbar {
+    flex-direction: column;
+    color: red;
+    text-decoration: underline;
+}
