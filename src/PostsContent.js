@@ -1,3 +1,4 @@
+
 import {  useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Loading from "./loading";
@@ -6,11 +7,10 @@ const PostsContent = () => {
     const { id } = useParams();
     const [post, setPosts] = useState(null);
   const [isLoading, setLoading] = useState (true);
-    const port = process.env.PORT || 4000
  
 
   useEffect(() => {
-    fetch(port + id) 
+    fetch("http://localhost:5000/posts/" + id) 
     .then(res => {
       return res.json();
     })
