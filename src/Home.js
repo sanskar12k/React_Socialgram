@@ -5,6 +5,7 @@ import { useParams } from "react-router";
 
 const Dashboard  = () => {
   var link = "http://localhost:5000/posts";
+  const port = process.env.PORT || 4000;
   
   const [post, setPosts] = useState(null);
   const [Ppost,setPpost] = useState(null);
@@ -14,7 +15,7 @@ const Dashboard  = () => {
   const [contents , setpostContent] = useState('');
 
   useEffect(() => {
-    fetch(link)
+    fetch(port)
     .then(res => {
       return res.json();
     })
@@ -37,7 +38,7 @@ const Dashboard  = () => {
   
    const  postscontent = {name : "Sanskar" ,contents,likes:0 };
 
-   fetch("http://localhost:5000/posts" ,{
+   fetch( port ,{
        method:'POST',
        headers: {"Content-Type" : "application/json"},
        body: JSON.stringify(postscontent)    // Converts the object into string 
@@ -47,7 +48,7 @@ const Dashboard  = () => {
      }) 
    }
    const deleteHandler=(id) =>{
-   fetch('http://localhost:5000/posts/' + id, {
+   fetch(port + id, {
      method: 'DELETE'
     }) .then(() =>{
     refreshPage();
