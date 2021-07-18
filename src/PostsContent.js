@@ -6,10 +6,11 @@ const PostsContent = () => {
     const { id } = useParams();
     const [post, setPosts] = useState(null);
   const [isLoading, setLoading] = useState (true);
+    const port = process.env.PORT || 4000
  
 
   useEffect(() => {
-    fetch("http://localhost:5000/posts/" + id) 
+    fetch(port + id) 
     .then(res => {
       return res.json();
     })
